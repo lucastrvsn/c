@@ -1,0 +1,51 @@
+{
+  "name": "@sugut/c",
+  "version": "0.1.0",
+  "description": "component library used in sugut app",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/types/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "author": {
+    "name": "Lucas Trevisan",
+    "email": "lucastrvsn@gmail.com"
+  },
+  "keywords": [
+    "css",
+    "react",
+    "sass",
+    "typescript",
+    "ui-components"
+  ],
+  "homepage": "https://github.com/sugut/c",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugut/c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sugut/c/issues"
+  },
+  "scripts": {
+    "start": "docz dev",
+    "test": ""
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "docz": "^2.3.1",
+    "gatsby-plugin-sass": "^2.3.0",
+    "node-sass": "^4.14.0",
+    "react-helmet": "^6.0.0"
+  }
+}
